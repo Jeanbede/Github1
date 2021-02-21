@@ -4,7 +4,7 @@
 e-mail:njeanbeda@gmail.com | Tel:+254720427590
 ## Description
 
-This is an Angular-application which display User's Github Informations Account. uAperson input GitHub username into a form, then search for the Account which will display Account Identification Details such as Account Name, Repositories Names and Repositories descriptions. This will apply to the Repositories which are set to be publically accessed ONLY.
+This is an Angular-application which display User's Github Informations Account. Aperson input GitHub username into a form, then search for the Account which will display Account Identification Details such as Account Name, Repositories Names and Repositories descriptions. This will apply to the Repositories which are set to be publically accessed ONLY.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
