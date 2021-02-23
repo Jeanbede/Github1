@@ -9,10 +9,10 @@ export class SearchService {
 
     constructor(private httpClient: HttpClient) { }
     getInfo(repo) {
-        return this.httpClient.get('https://api.github.com/users/' + repo + '/repos?access_token=' + environment.gitApiKey)
+        return this.httpClient.get('https://api.github.com/users/' + repo)
     }
 
     getUsers(repo) {
-        return this.httpClient.get('https://api.github.com/users/' + repo + '?access_token=' + environment.gitApiKey)
+        return this.httpClient.get('https://api.github.com/users/' + repo)
     }
 }
